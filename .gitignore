@@ -1,6 +1,7 @@
 node_modules
 .private
 .secret
+yarn-error.log
 
 #Buidler files
 cache

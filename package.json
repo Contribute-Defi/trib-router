@@ -1,0 +1,15 @@
+{
+  "name": "Trib-Router-Package",
+  "scripts": {
+    "deploy:main": "buidler run scripts/deploy_mainnet.js --network mainnet"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.8",
+    "@nomiclabs/buidler-ethers": "^2.0.2",
+    "@nomiclabs/buidler-etherscan": "^2.1.0",
+    "ethers": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  }
+}
